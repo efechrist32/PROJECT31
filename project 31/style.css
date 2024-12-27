@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: antiquewhite;
+}
+.m-heading {
+    font-family: "Roboto Slab", serif;
+}
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    transition: 0.5s ease;
+}
+.navigation {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: orange;
+}
+.form {
+    background-color: pink;
+    border: 2px solid red;
+    border-radius: 25px;
+    padding: 15px;
+}
+label {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.input {
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 2px black;
+}
+input.input:hover {
+    box-shadow: 10px 10px 2px black;
+}
+button {
+    background-color: blue;
+    border: 3px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px black;
+}
+button:hover {
+    box-shadow: 10px 10px 2px black;
+}
+.img {
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+    border-radius: 50%;
+    border: 2px dashed black;
+}
+.pic {
+    height: 300px;
+    width: 150px;
+}
+.pics {
+    text-align: center;
+    margin: 25px 0px;
+}
+.pic1 {
+    transform: rotateZ(-45deg);
+    border-radius: 15px;
+    border: 2px solid black;
+    position: absolute;
+    left: 500px;
+}
+.pic2 {
+    transform: rotateZ(0deg);
+    border-radius: 15px;
+    border: 2px solid black;
+    position: absolute;
+    left: 600px;
+}
+.pic3 {
+    transform: rotateZ(45deg);
+    border-radius: 15px;
+    border: 2px solid black;
+    position: absolute;
+    right: 500px;
+}
