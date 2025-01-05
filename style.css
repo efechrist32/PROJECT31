@@ -1,119 +1,137 @@
-html {
-    scroll-behavior: smooth;
-}
-body {
-    background: antiquewhite;
-}
-.m-heading {
-    font-family: "Roboto Slab", serif;
-}
-.navigation-link:hover {
-    text-decoration: none;
-    border-bottom: 2px solid black;
-    transition: 0.5s ease;
-}
-.navigation {
-    z-index: 100
-    ;
-    position: sticky;
-    top: 0px;
-    left: 0px;
-    background-color: orange;
-}
-.form {
-    background-color: pink;
-    border: 2px solid red;
-    border-radius: 25px;
-    padding: 15px;
-}
-label {
-    color: white;
-    font-size: 25px;
-    font-weight: 600;
-}
-.input {
-    padding: 10px;
-    border-radius: 30px;
-    box-shadow: 4px 4px 2px black;
-}
-input.input:hover {
-    box-shadow: 10px 10px 2px black;
-}
-button {
-    background-color: blue;
-    border: 3px;
-    padding: 20px 30px;
-    border-radius: 15px;
-    box-shadow: 4px 4px 2px black;
-}
-button:hover {
-    box-shadow: 10px 10px 2px black;
-}
-.img {
-    height: 30px;
-    width: 30px;
-    margin: 0px;
-    border-radius: 50%;
-    border: 2px dashed black;
-}
-.pic {
-    height: 300px;
-    width: 150px;
-}
-.pics {
-    text-align: center;
-    margin-top: 25px;
-    background-position-y: bottom;
-}
-.pic1 {
-    transform: rotateZ(-45deg);
-    border-radius: 15px;
-    border: 2px solid black;
-}
-.pic2 {
-    transform: rotateZ(0deg);
-    border-radius: 15px;
-    border: 2px solid black;
-}
-.pic3 {
-    transform: rotateZ(45deg);
-    border-radius: 15px;
-    border: 2px solid black;
-}
-.pic4 {
-    height: 300px;
-    width: 300px;
-    border: 2px dashed red;
-    border-radius: 50%;
-}
-.namep {
-    text-transform: uppercase;
-}
-body.bg {
-    color: white;
-    text-align: center;
-    background-image: url(./backwhatsapp.jpg);
-    background-repeat: repeat;
-}
-.sidepic {
-    height: 500px;
-    width: 500px;
-    border: 2px solid red;
-    border-radius: 100%;
-}
-.about {
-    background-color: aqua;
-}
-.home {
-    height: 550px;
-    width: 350px;
-    margin-bottom: 5px;
-}
-.cp {
-    font-family: "Playwrite IE Guides", serif;
-    font-weight: 700;
-    font-style: normal;
-}
-.food {
-    height: 400px;
+html {  
+    scroll-behavior: smooth;  
+}  
+
+body {  
+    background: antiquewhite;  
+}  
+
+.m-heading {  
+    font-family: "Roboto Slab", serif;  
+}  
+
+.navigation-link:hover {  
+    text-decoration: none;  
+    border-bottom: 2px solid black;  
+    transition: 0.5s ease;  
+}  
+
+.navigation {  
+    z-index: 100;  
+    position: sticky;  
+    top: 0;  
+    left: 0;  
+    background-color: orange;  
+}  
+
+.form {  
+    background-color: pink;  
+    border: 2px solid red;  
+    border-radius: 25px;  
+    padding: 2%;  
+}  
+
+label {  
+    color: white;  
+    font-size: 2.5vw;  
+    font-weight: 600;  
+}  
+
+.input {  
+    padding: 1%;  
+    border-radius: 30px;  
+    box-shadow: 4px 4px 2px black;  
+}  
+
+input.input:hover {  
+    box-shadow: 10px 10px 2px black;  
+}  
+
+button {  
+    background-color: blue;  
+    border: 3px;  
+    padding: 5% 7%;  
+    border-radius: 15px;  
+    box-shadow: 4px 4px 2px black;  
+}  
+
+button:hover {  
+    box-shadow: 10px 10px 2px black;  
+}  
+
+.img {  
+    height: 5vh;  
+    width: 5vh;  
+    margin: 0;  
+    border-radius: 50%;  
+    border: 2px dashed black;  
+}  
+
+.pic {  
+    height: 30vh;  
+    width: 15vw;  
+}  
+
+.pics {  
+    text-align: center;  
+    margin-top: 2.5%;  
+    background-position-y: bottom;  
+}  
+
+.pic1, .pic2, .pic3 {  
+    border-radius: 15px;  
+    border: 2px solid black;  
+}  
+
+.pic1 {  
+    transform: rotateZ(-45deg);  
+}  
+
+.pic3 {  
+    transform: rotateZ(45deg);  
+}  
+
+.pic4 {  
+    height: 30vh;  
+    width: 30vw;  
+    border: 2px dashed red;  
+    border-radius: 50%;  
+}  
+
+.namep {  
+    text-transform: uppercase;  
+}  
+
+body.bg {  
+    color: white;  
+    text-align: center;  
+    background-image: url(./backwhatsapp.jpg);  
+    background-repeat: repeat;  
+}  
+
+.sidepic {  
+    height: 50vh;  
+    width: 50vw;  
+    border: 2px solid red;  
+    border-radius: 100%;  
+}  
+
+.about {  
+    background-color: aqua;  
+}  
+
+.home {  
+    height: 55vh;  
+    width: 35vw;  
+    margin-bottom: 5%;  
+}  
+
+.cp {  
+    font-family: "Playwrite IE Guides", serif;  
+    font-weight: 700;  
+    font-style: normal;  
+}  
+
+.food {  
+    height: 40vh;  
 }
