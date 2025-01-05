@@ -60,7 +60,7 @@ button:hover {
 }  
 
 .img {  
-    height: 5vh;  
+    height: auto;  
     width: 5vh;  
     margin: 0;  
     border-radius: 50%;  
@@ -68,7 +68,7 @@ button:hover {
 }  
 
 .pic {  
-    height: 30vh;  
+    height: auto;  
     width: 15vw;  
 }  
 
@@ -92,7 +92,7 @@ button:hover {
 }  
 
 .pic4 {  
-    height: 30vh;  
+    height: auto;  
     width: 30vw;  
     border: 2px dashed red;  
     border-radius: 50%;  
@@ -110,7 +110,7 @@ body.bg {
 }  
 
 .sidepic {  
-    height: 50vh;  
+    height: auto;  
     width: 50vw;  
     border: 2px solid red;  
     border-radius: 100%;  
