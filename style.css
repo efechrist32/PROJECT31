@@ -116,6 +116,13 @@ body.bg {
 .food {  
     height: 400px;  
 }  
+.card {  
+    width: 250px;  
+}  
+.card-img-top {  
+    height: 250px;  
+}  
+
 @media (min-width: 319px) and (max-width: 480px) {  
     .img {  
         height: 7.5px;  
@@ -139,6 +146,12 @@ body.bg {
     }  
     .food {  
         height: 100px;  
+    }  
+    .card {  
+        width: 125px;  
+    }  
+    .card-img-top {  
+        height: 125px;  
     }  
 }  
 
@@ -166,6 +179,12 @@ body.bg {
     .food {  
         height: 300px;  
     }  
+    .card {  
+        width: 187.5px;  
+    }  
+    .card-img-top {  
+        height: 187.5px;  
+    }  
 }  
 
 @media (min-width: 1201px) and (max-width: 1600px) {  
@@ -192,6 +211,12 @@ body.bg {
     .food {  
         height: 266.67px;  
     }  
+    .card {  
+        width: 200px;  
+    }  
+    .card-img-top {  
+        height: 200px;  
+    }  
 }  
 
 @media (min-width: 1601px) {  
@@ -217,5 +242,11 @@ body.bg {
     }  
     .food {  
         height: 400px;  
+    }  
+    .card {  
+        width: 250px;  
+    }  
+    .card-img-top {  
+        height: 250px;  
     }  
 }
